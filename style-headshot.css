@@ -1,0 +1,11 @@
+img {
+  border-radius: 50%;
+  transition: 750ms;
+  border: 4px solid black;
+  box-shadow: 10px 10px 10px black;
+}
+
+img:hover,
+img:focus {
+  width: 350px;
+}
