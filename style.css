@@ -104,7 +104,7 @@ a:hover {
 
 .about-text {
   display: grid;
-  margin: 2rem 20rem;
+  margin: 2rem 3rem;
   text-align: left;
   background-color: white;
   opacity: 0.85;
@@ -120,12 +120,6 @@ a:hover {
   place-items: center;
 }
 
-.project {
-  position: relative;
-  margin: 0 auto;
-  width: 25rem;
-}
-
 .project-name:hover {
   color: #6c74e4;
 }
@@ -135,12 +129,20 @@ a:hover {
   text-align: left;
 }
 
+.project-image {
+  display: block;
+  margin: 1rem auto;
+  width: 30%;
+}
+
 .project-details {
+  display: block;
+  position: relative;
+  margin: 1rem 3rem;
   background-color: white;
   width: auto;
   opacity: 0.85;
   box-shadow: 10px 10px 10px black;
-  box-sizing: content-box;
   padding: 0.5rem;
   border: 4px solid black;
   line-height: 23px;
@@ -166,7 +168,7 @@ a:hover {
 }
 
 .resume {
-  margin: 1rem 2rem;
+  margin: 1rem 3rem;
   height: calc(100% -155px);
   background-color: white;
   opacity: 0.85;
@@ -182,15 +184,13 @@ a:hover {
 
 #contact-form {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 3rem;
   background-color: white;
   opacity: 0.85;
   box-shadow: 10px 10px 10px black;
   box-sizing: content-box;
   padding: 0.5rem;
   border: 4px solid black;
-  width: 90%;
 }
 
 input,
@@ -214,4 +214,16 @@ label {
 label {
   font-weight: bold;
   text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  transition: 750ms;
+  border: 4px solid black;
+  box-shadow: 10px 10px 10px black;
+}
+
+img:hover,
+img:focus {
+  width: 30%;
 }
